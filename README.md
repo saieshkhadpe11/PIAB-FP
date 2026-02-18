@@ -74,7 +74,7 @@ The system converges through **damped Newtonian integration** with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/PIAB-FP.git
+git clone https://github.com/saieshkhadpe11/PIAB-FP.git
 cd PIAB-FP
 
 # Install dependencies
