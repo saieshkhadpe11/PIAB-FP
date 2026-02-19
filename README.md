@@ -6,7 +6,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper: IEEE](https://img.shields.io/badge/Paper-IEEE%20Format-orange)](paper.tex)
+[![Journal: Integration VLSI](https://img.shields.io/badge/Journal-Integration%20VLSI-orange)](https://www.sciencedirect.com/journal/integration)
 
 *A novel force-directed optimization framework where each VLSI block acts as an autonomous Newtonian agent, enabling emergent wirelength minimization, overlap resolution, and thermal-aware clustering in a single unified simulation.*
 
@@ -154,7 +154,6 @@ Attraction starts at 30% strength → ramps to 100%, giving repulsion priority d
 ```
 PIAB-FP/
 ├── vlsi.py               # Core implementation (600+ lines)
-├── paper.tex             # IEEE-format research paper (LaTeX)
 ├── RESEARCH_NOTES.md     # Detailed research documentation
 ├── requirements.txt      # Python dependencies
 ├── LICENSE               # MIT License
@@ -166,18 +165,6 @@ PIAB-FP/
 ```
 
 ---
-
-## 📝 Research Paper
-
-The full IEEE-format paper is included as [`paper.tex`](paper.tex). It contains:
-
-- Complete mathematical formulation with numbered equations
-- Algorithm pseudocode (Algorithm 1)
-- Related work survey with comparison table
-- Experimental setup and results discussion
-- 13 properly formatted IEEE references
-
-**To compile:** Upload to [Overleaf](https://overleaf.com) with the result PNG files, or run `pdflatex paper.tex` locally.
 
 ---
 
@@ -208,11 +195,11 @@ The full IEEE-format paper is included as [`paper.tex`](paper.tex). It contains:
 If you use PIAB-FP in your research, please cite:
 
 ```bibtex
-@inproceedings{piabfp2026,
+@article{piabfp2026,
     title     = {PIAB-FP: A Physics-Inspired Agent-Based Framework for
                  Thermal-Aware VLSI Macro-Block Floorplanning},
-    author    = {Anonymous},
-    booktitle = {Proceedings of the IEEE Conference},
+    author    = {Khadpe, Saiesh},
+    journal   = {Integration, the VLSI Journal},
     year      = {2026}
 }
 ```
